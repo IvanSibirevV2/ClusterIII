@@ -1,0 +1,9 @@
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\bin\Debug\ClustererData.exe.config
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\bin\Debug\ClustererData.exe
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\bin\Debug\ClustererData.pdb
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\obj\Debug\ClustererData.FormMain.resources
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\obj\Debug\ClustererData.FormMatrixValuesImport.resources
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\obj\Debug\ClustererData.Properties.Resources.resources
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\obj\Debug\ClustererData.csproj.GenerateResource.Cache
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\obj\Debug\ClustererData.exe
+D:\GitLocal\ClusteringRows000\ClustererData\ClustererData\obj\Debug\ClustererData.pdb

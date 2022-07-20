@@ -1,0 +1,392 @@
+C:\Users\Иван\AppData\Local\Temporary Projects\MA\bin\Debug\MA.exe.config
+C:\Users\Иван\Documents\Visual Studio 2012\Projects\MA\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA001\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA001\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA001\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA002\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA002\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA002\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA002\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA002\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA002\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA002\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA002\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA002\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA003\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA003\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA003\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA003\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA003\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA003\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA003\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA003\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA003\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA004\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA004\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA004\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA004\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA004\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA004\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA004\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA004\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA004\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA005\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA005\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA005\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA005\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA005\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA005\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA005\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA005\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA005\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA006\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA006\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA006\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA006\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA006\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA006\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA006\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA006\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA006\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA007\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA007\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA007\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA007\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA007\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA007\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA007\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA007\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA007\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA007\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA008\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA008\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA008\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA008\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA008\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA008\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA008\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA008\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA008\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA008\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA009\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA009\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA009\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA009\MA\obj\Debug\MA.Form2.resources
+D:\яVictory_2014.2.v000\MA010\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA010\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA010\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.Form2.resources
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA010\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA011\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA011\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA011\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.Form2.resources
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA011\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA012\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA012\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA012\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA012\MA\obj\Debug\MA.FormСhangeСluster.resources
+D:\яVictory_2014.2.v000\MA013\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA013\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA013\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.FormСhangeСluster.resources
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA013\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA014\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.FormСhangeСluster.resources
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA014\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA014\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA014\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA015\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA015\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA015\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA015\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA015\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA015\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA015\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA015\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA015\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA015\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA016\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA016\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA016\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA016\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA016\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA016\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA016\MA\obj\Debug\MA.FormSettings.resources
+D:\яVictory_2014.2.v000\MA016\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA016\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA016\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA017\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA017\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA017\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA017\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA017\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA017\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA017\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA017\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA017\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA017\MA\obj\Debug\MA.Form1.resources
+D:\яVictory_2014.2.v000\MA018\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA018\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA018\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA018\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA018\MA\obj\Debug\MA.Form1.resources
+D:\яVictory_2014.2.v000\MA018\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA018\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA018\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA018\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA018\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA019\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA019\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA019\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA019\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA019\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA019\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA019\MA\obj\Debug\MA.Form1.resources
+D:\яVictory_2014.2.v000\MA019\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v000\MA019\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA019\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v001\MA019\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v001\MA019\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA019\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA019\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v001\MA019\MA\obj\Debug\MA.Form1.resources
+D:\яVictory_2014.2.v001\MA019\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v001\MA019\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v001\MA019\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v001\MA019\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA019\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA020\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA020\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA020\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v001\MA020\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v001\MA021\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v001\MA021\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA021\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA021\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v001\MA022\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v001\MA022\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA022\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA022\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\яVictory_2014.2.v001\MA023\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA023\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA023\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v001\MA023\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v001\MA024\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v001\MA024\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v001\MA024\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v002\MA024\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v002\MA024\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v002\MA024\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v002\MA024\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v002\M024\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v002\M024\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v002\M024\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v002\M024\MA\bin\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v002\M024\MA\bin\Debug\MA.application
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v002\M024\MA\obj\Debug\MA.application
+D:\яVictory_2014.2.v002\M025\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v002\M025\MA\bin\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v002\M025\MA\bin\Debug\MA.application
+D:\яVictory_2014.2.v002\M025\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v002\M025\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.application
+D:\яVictory_2014.2.v002\M025\MA\obj\Debug\MA.FormFCM.resources
+D:\яVictory_2014.2.v002\M026\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v002\M026\MA\bin\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v002\M026\MA\bin\Debug\MA.application
+D:\яVictory_2014.2.v002\M026\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v002\M026\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.FormFCM.resources
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v002\M026\MA\obj\Debug\MA.application
+D:\яVictory_2014.2.v003\M026\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.pdb
+D:\яVictory_2014.2.v003\M026\MA\bin\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v003\M026\MA\bin\Debug\MA.application
+D:\яVictory_2014.2.v003\M026\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v003\M026\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.FormCHInf.resources
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.FormFCM.resources
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.FormResult.resources
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.FormMain.resources
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.exe.manifest
+D:\яVictory_2014.2.v003\M026\MA\obj\Debug\MA.application
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\bin\Debug\MA.exe.config
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.exe
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.pdb
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\bin\Debug\MA.exe.manifest
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\bin\Debug\MA.application
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\bin\Debug\MA.exe
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\bin\Debug\MA.pdb
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.FormCHInf.resources
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.FormFCM.resources
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.FormResult.resources
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.FormMain.resources
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.Properties.Resources.resources
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.exe.manifest
+D:\Яндекс диск\Разобрать000\готово\Программа\MA\obj\Debug\MA.application
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\bin\Debug\MA.exe.config
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.exe
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.pdb
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\bin\Debug\MA.exe.manifest
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\bin\Debug\MA.application
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\bin\Debug\MA.exe
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\bin\Debug\MA.pdb
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.FormCHInf.resources
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.FormFCM.resources
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.FormResult.resources
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.FormMain.resources
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.Properties.Resources.resources
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.exe.manifest
+D:\Какие-то лабы ваще за все семестры\скинуть на диск\Программа\MA\obj\Debug\MA.application
+D:\GitLocal\ClusteringRows000\Программа\MA\bin\Debug\MA.exe.config
+D:\GitLocal\ClusteringRows000\Программа\MA\bin\Debug\MA.exe.manifest
+D:\GitLocal\ClusteringRows000\Программа\MA\bin\Debug\MA.application
+D:\GitLocal\ClusteringRows000\Программа\MA\bin\Debug\MA.exe
+D:\GitLocal\ClusteringRows000\Программа\MA\bin\Debug\MA.pdb
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.csprojResolveAssemblyReference.cache
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.FormCHInf.resources
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.NewFormCHInf.resources
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.FormFCM.resources
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.FormResult.resources
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.FormMatrixValuesImport.resources
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.FormMain.resources
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.Properties.Resources.resources
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.csproj.GenerateResource.Cache
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.exe.manifest
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.application
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.exe
+D:\GitLocal\ClusteringRows000\Программа\MA\obj\Debug\MA.pdb

@@ -1,0 +1,8 @@
+D:\яVictory_2014.2.v000\MA001\MA\bin\Debug\MA.exe.config
+D:\яVictory_2014.2.v000\MA001\MA\bin\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA001\MA\bin\Debug\MA.pdb
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.MA.csprojResolveAssemblyReference.cache
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.Properties.Resources.resources
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.MA.csproj.GenerateResource.Cache
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.exe
+D:\яVictory_2014.2.v000\MA001\MA\obj\Debug\MA.pdb
