@@ -1,0 +1,368 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+
+	<div><!-- -- Bootstrap ---->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script src="jquery-latest.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</div>
+</head>
+<body>
+
+<form id="HtmlForm">
+			
+		<div id="div1" class="btn btn-primary" style="display:block;">
+			<div>
+				Введите предметную область
+			</div>
+			<div>				
+			<textarea id="textarea1">Параметр	П1	П2	П3
+Маша	1	2	3
+Петя	7	8	9
+Паша	3	4	5
+</textarea>
+			</div>
+			<div id="div2" class="btn btn-info" style="display:block;">
+				Принять
+			</div>
+		</div>				
+		
+		<div id="div3" class="btn btn-primary" style="display:none;">
+			<div>
+				Предметная область
+			</div>
+			<div>
+				<table id="table1" class="table table-striped" style="display:block;"></table>
+			</div>
+			<div>
+				Кластеризация центроидным методом<br>
+				Укажите колличество кластеров
+			</div>
+			<div>
+				<textarea id="textarea2">2</textarea>
+			</div>
+			<div id="div4" class="btn btn-info" style="display:block;">
+				Подтвердить
+			</div>
+			
+		</div>			
+		<div id="div5" class="btn btn-primary" style="display:none;">
+			<table id="table2" class="table table-striped" style="display:block;"></table>
+		</div>
+		
+	</form>
+
+
+<script>/*WorkHelp*/
+	function ConvertToNumber(input){
+		rez=0;
+		if (isNaN(input) == false ){
+			rez = parseInt(input)+0;
+			if (isNaN(rez) == true ){
+				rez = 0;
+			} 
+		} 	
+		return rez;
+	}	
+</script>
+<script>/*List*/
+	function List(){
+		this.a = new Array();		
+	}		
+	List.prototype.print = function (){
+		text= "Begin:";
+		for ( i = 0; i < this.a.length; i++){
+			text= text+"\n    List["+i+"]="+this.a[i];			
+		}		
+		text= text+"\nEnd;";			
+		WScript.echo(text);
+	}	
+	List.prototype.add = function (input){			
+		this.a[this.a.length]=(input);
+	}
+	List.prototype.at = function (input){	
+		if(	( input > -1 ) &&( input < this.a.length )){ 
+			return this.a[input];
+		}		
+		else{
+			text= "Error\n List.prototype.at = function (input)";			
+			text= text+"\n Index TypeError";
+			text= text+"\n Input:<"+input+"> bat expect [0;"+(this.a.length-1)+"]"; 			
+			WScript.echo(text);		
+			return 0; 			
+		}		
+	}
+	List.prototype.addList = function (inputlist){			
+		if (inputlist instanceof List){
+			for(i = 0; i< inputlist.a.length;i++){
+				this.add(inputlist.at(i));
+			}
+		}		
+	}
+	List.prototype.removeat = function (input){	
+		
+		rez = new List();
+		for ( i = 0; i < this.a.length; i++){
+			if(parseInt(i)!= parseInt(input)){
+				local = this.a[i];
+				rez.add(local);			
+			}
+		}		
+		return rez;	
+	}
+	List.prototype.Count = function (){	
+		return this.a.length;		
+	}	
+</script>
+<script>/*Данные*/	
+	DataProject = new List();	
+	function ConvertTextToDataProject(InputText){			
+		RealText="";
+		//alert(InputText);
+		for(i=0;i<InputText.length;i++){			
+			//alert(InputText.value.charAt(i));				
+			if(InputText.charAt(i)=='	'){
+				RealText=RealText+"~";
+			}
+			else{
+				RealText=RealText+InputText.charAt(i);
+			}			
+		}		
+		//alert(RealText);
+		//alert("!!!Warming!!!");
+		MainLocalDP = new List();
+		for(i=0;i<RealText.split(/\n/).length;i++){//Пробегаем строки			
+			//HTMLText="";
+			TextI=RealText.split(/\n/)[i]+"";
+			//alert(TextI);
+			LocalDP = new List();
+			for(j=0;j<RealText.split(/\n/)[i].split(/~/).length;j++){//Пробегаем столбци				
+				TextIJ=RealText.split(/\n/)[i].split(/~/)[j]+"";
+				//alert(TextIJ);
+				LocalDP.add(TextIJ);
+			}
+			MainLocalDP.add(LocalDP);
+		}
+		return MainLocalDP;
+	}
+	function ConvertDataProjectToTable_TypeAfterInput(InputDP,OutpuPoint){//CDPTT_TAI
+		//success,error,warning,info				
+		//OutpuPoint.innerHTML+= '<tr class="warning"><td>Кластер</td></tr>';
+		flag=true;
+		for(iCDPTT_TAI=0;iCDPTT_TAI<InputDP.Count();iCDPTT_TAI++){		
+			HTMLText="";
+			LocalIDP=InputDP.at(iCDPTT_TAI);			
+			for(jCDPTT_TAI=0;jCDPTT_TAI<LocalIDP.Count();jCDPTT_TAI++){
+				TextIJ=LocalIDP.at(jCDPTT_TAI);
+				HTMLText=HTMLText+'<td>'+TextIJ+""+'</td>';				
+			}			
+			
+			if(iCDPTT_TAI==0){/*Если это заголовок*/			
+				HTMLText= '<tr class="error">'+HTMLText+'</tr>';							
+			}			
+			else{/*Если это не заголовок*/			
+				if(flag==true){
+					HTMLText= '<tr class="success">'+HTMLText+'</tr>';							
+				}
+
+				if(flag==false){
+					HTMLText= '<tr class="info">'+HTMLText+'</tr>';							
+				}
+			}
+			/*Смена флага*/
+			if(flag==true){
+				//alert('true => false');
+				flag=false;
+			}else{
+				//alert('false => true');
+				flag=true;
+			}
+			
+			//HTMLText= '<tr class="success">'+HTMLText+'</tr>';
+			OutpuPoint.innerHTML+=HTMLText;
+		}
+	}
+</script>
+<script>//СentroidСlustering
+	function Point(input){	
+		rezPoint= new List();		
+		//Обнуляем		
+		for(iPoint=0;iPoint<input.at(0).Count()-1;iPoint++){		
+			rezPoint.add(+0);			
+		}	
+		delete iPoint;
+		//Складываем всё что можем
+		for(iPoint=1;iPoint<input.Count();iPoint++){		
+			for(jPoint=1;jPoint<input.at(0).Count();jPoint++){								
+				rezPoint.a[jPoint-1]=rezPoint.a[jPoint-1]+parseFloat(input.at(iPoint).at(jPoint));
+			}						
+		}
+		delete iPoint;
+		delete jPoint;		
+		//Делим всё на ноль
+		for(iPoint=0;iPoint<rezPoint.Count();iPoint++){
+			//alert(rezPoint.at(iPoint));
+			rezPoint.a[iPoint]=rezPoint.a[iPoint]/(rezPoint.Count());
+		}		
+		delete iPoint;		
+		return rezPoint;
+		delete rezPoint;		
+	}
+	function Distance(input1,input2){
+		i1Distance=Point(input1);
+		/*
+		TEXT="";
+		for(adfs=0;adfs<i1Distance.Count();adfs++){
+			TEXT=TEXT+"\n"+i1Distance.at(adfs);
+		}alert(TEXT);
+		*/
+		i2Distance=Point(input2);		
+		/*
+		TEXT="";
+		for(adfs=0;adfs<i2Distance.Count();adfs++){
+			TEXT=TEXT+"\n"+i2Distance.at(adfs);
+		}alert(TEXT);
+		*/
+		rezDistance=0;				
+		if(i1Distance.Count()==i2Distance.Count()){			
+			for(iDistance=0;iDistance<i1Distance.Count();iDistance++){
+				qwe=i1Distance.at(iDistance)-i2Distance.at(iDistance);
+				//alert(i1Distance.at(iDistance)+"\n"+i2Distance.at(iDistance));
+				rezDistance=rezDistance+qwe*qwe;								
+				delete qwe;
+			}	
+			delete iDistance;			
+		}		
+		delete i1Distance;
+		delete i2Distance;
+		rezDistance=Math.sqrt(rezDistance);
+		return rezDistance		
+		delete rezDistance;		
+	}
+	function СentroidСlustering(realinput,k){	
+		input = new List();
+		input.addList(realinput);
+		//	Создаём список кластеров
+		OutPutСluster = new List();			
+	
+		//ert(NewCluster.Count());
+			
+		for(i=1;i<input.Count()-1;i++){
+			//Создаём новый объект-кластер-предприятие
+			NewCluster = new List();
+			NewCluster.add(input.at(0));			
+			NewCluster.add(input.at(i));
+			//Копируем новый объект-кластер-предприятие
+			OutPutСluster.add(NewCluster);
+		}
+		delete input;
+		delete i;
+		//Перибераем всякую
+		//k=parseInt(k)+1;		
+		if(OutPutСluster.Count()>2)
+		{	
+			do {		
+				//Найти минимальный элемент				
+				min= 9999999999999999;			
+				minI=0;minJ=0;
+				for(i=0;i<OutPutСluster.Count();i++){											
+					for(j=0;j<OutPutСluster.Count();j++){
+						//alert("("+i+";"+j+")");					
+						di= Distance(OutPutСluster.at(i),OutPutСluster.at(j)) ;
+						if(i!=j)	
+							{						
+								if( min >  di){																	
+									min=di;								
+									minI=i;
+									minJ=j;								
+								}
+							}							
+						//alert("d("+i+";"+j+")="+di+"\n min="+min+"\n"+OutPutСluster.Count()+"\n minI=" +minI+"\n minJ="+minJ);
+						delete di;
+						delete di;
+					}
+				}
+				delete i;
+				delete j;
+				delete min;				
+				//Сгрупперовать два мини мальных элемента
+				NewC= new List();			
+				NewC.add(OutPutСluster.at(minI).at(0));
+				
+				//Добавляем все элементы из minI
+				for(i=1;i<OutPutСluster.at(minI).Count();i++){
+					NewC.add(OutPutСluster.at(minI).at(i));				
+				}
+				delete i;				
+				//Добавляем все элементы из minJ				
+				for(i=1;i<OutPutСluster.at(minJ).Count();i++){
+					NewC.add(OutPutСluster.at(minJ).at(i));				
+				}				
+				delete i;
+				
+				
+				
+				//Удаляем minI minJ								
+				//alert('minI = '+minI+' \n minJ = '+ minJ);
+				if(minI>minJ){
+						//alert('minI>minJ');
+						OutPutСluster=OutPutСluster.removeat(minI);
+						OutPutСluster=OutPutСluster.removeat(minJ);
+					}else{
+						//alert('minI<=minJ');
+						OutPutСluster=OutPutСluster.removeat(minJ);
+						OutPutСluster=OutPutСluster.removeat(minI);
+					}				
+				//alert("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq");
+				//Добавляем отсебятинки			
+				OutPutСluster.add(NewC);
+				/*
+				for(i=0;i<OutPutСluster.Count();i++){//Вывод на экран всякого хлама
+					alert("Кол-Во кластеров; "+ OutPutСluster.Count()+"\n Текущий кластер:" +i+"\n Количество подкластеров:" +OutPutСluster.at(i).Count()+"\n "+"\n Перичисление"+"\n :" +OutPutСluster.at(i).at(0).at(0)+"\n :" +OutPutСluster.at(i).at(1).at(0));
+					ConvertDataProjectToTable_TypeAfterInput(OutPutСluster.at(i),document.all.table2);
+				}				
+				*/
+				//alert("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq");
+			//Радуемся жизни			
+				//alert(OutPutСluster.Count()+">"+k);
+				//k=k-1;
+			} while (OutPutСluster.Count()>k);
+						
+		}		
+		return OutPutСluster;
+	}
+</script>
+<script>//HtmlFormEvent(Actions)
+	function displayer(input){//Метод изменения видимости
+		if (input.style.display != 'block')
+		{input.style.display = 'block';}
+		else
+		{input.style.display = 'none';}
+	}	
+	
+	document.all.div2.onclick = function (){//Экшен кнопки принять
+		//IfItСluster(input);				
+		displayer(document.all.div1);				
+		DataProject = ConvertTextToDataProject(document.all.textarea1.value);
+		ConvertDataProjectToTable_TypeAfterInput(DataProject,document.all.table1);
+		displayer(document.all.div3);
+	}		
+	
+	document.all.div4.onclick = function (){	
+		test = ConvertToNumber(document.all.textarea2.value);		
+		if(test>=2){			
+			displayer(document.all.div3);						
+			displayer(document.all.div5);						
+			rez = СentroidСlustering(DataProject,document.all.textarea2.value);			
+			for(i=0;i<rez.Count();i++){ConvertDataProjectToTable_TypeAfterInput(rez.at(i),document.all.table2);}			
+			
+		}
+		else{
+			text = "Неверно введено количество кластеров.";
+			text = text + "\n Повторите ввод."
+			document.all.textarea2.value=2;
+			alert(text);
+		}
+	}					
+</script></body></html>
