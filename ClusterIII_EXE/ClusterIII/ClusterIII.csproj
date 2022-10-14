@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ArgeCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ArgeCode.0.0.2\lib\net471\ArgeCode.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,11 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Data\LLSData.cs" />
+    <Compile Include="Data\Standart\Normal.cs" />
+    <Compile Include="Data\Standart\Super_Small_NaN.cs" />
+    <Compile Include="Data\Standart\Super_Small.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\..\..\ArgeCode\ArgeCodEXE\ArgeCode\ArgeCode.csproj">
+      <Project>{be57a372-6117-4e1a-9466-e3b9826320e9}</Project>
+      <Name>ArgeCode</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

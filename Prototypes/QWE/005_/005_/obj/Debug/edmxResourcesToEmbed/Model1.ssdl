@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище QWEModel" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Хранилище QWEModelContainer">
+    <EntitySet Name="CarList" EntityType="Хранилище QWEModel.CarList" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EdgeOfGraph" EntityType="Хранилище QWEModel.EdgeOfGraph" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RouteList" EntityType="Хранилище QWEModel.RouteList" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TradeNode" EntityType="Хранилище QWEModel.TradeNode" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id" Association="Хранилище QWEModel.FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNode" />
+      <End Role="EdgeOfGraph" EntitySet="EdgeOfGraph" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id" Association="Хранилище QWEModel.FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNode" />
+      <End Role="EdgeOfGraph" EntitySet="EdgeOfGraph" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RouteList_CarList_id__CarList_id" Association="Хранилище QWEModel.FK_RouteList_CarList_id__CarList_id">
+      <End Role="CarList" EntitySet="CarList" />
+      <End Role="RouteList" EntitySet="RouteList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RouteList_TradeNode_id_1__TradeNode_id" Association="Хранилище QWEModel.FK_RouteList_TradeNode_id_1__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNode" />
+      <End Role="RouteList" EntitySet="RouteList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RouteList_TradeNode_id_2__TradeNode_id" Association="Хранилище QWEModel.FK_RouteList_TradeNode_id_2__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNode" />
+      <End Role="RouteList" EntitySet="RouteList" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CarList">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nchar" MaxLength="10" />
+    <Property Name="maxLoadCapacity" Type="int" />
+  </EntityType>
+  <EntityType Name="EdgeOfGraph">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TradeNode_id_1" Type="int" />
+    <Property Name="TradeNode_id_2" Type="int" />
+    <Property Name="cost" Type="int" />
+  </EntityType>
+  <EntityType Name="RouteList">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TradeNode_id_1" Type="int" />
+    <Property Name="TradeNode_id_2" Type="int" />
+    <Property Name="CarList_id" Type="int" />
+    <Property Name="reset" Type="int" />
+  </EntityType>
+  <EntityType Name="TradeNode">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id">
+    <End Role="TradeNode" Type="Хранилище QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="EdgeOfGraph" Type="Хранилище QWEModel.EdgeOfGraph" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="EdgeOfGraph">
+        <PropertyRef Name="TradeNode_id_1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id">
+    <End Role="TradeNode" Type="Хранилище QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="EdgeOfGraph" Type="Хранилище QWEModel.EdgeOfGraph" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="EdgeOfGraph">
+        <PropertyRef Name="TradeNode_id_2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RouteList_CarList_id__CarList_id">
+    <End Role="CarList" Type="Хранилище QWEModel.CarList" Multiplicity="0..1" />
+    <End Role="RouteList" Type="Хранилище QWEModel.RouteList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarList">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RouteList">
+        <PropertyRef Name="CarList_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RouteList_TradeNode_id_1__TradeNode_id">
+    <End Role="TradeNode" Type="Хранилище QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="RouteList" Type="Хранилище QWEModel.RouteList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RouteList">
+        <PropertyRef Name="TradeNode_id_1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RouteList_TradeNode_id_2__TradeNode_id">
+    <End Role="TradeNode" Type="Хранилище QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="RouteList" Type="Хранилище QWEModel.RouteList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RouteList">
+        <PropertyRef Name="TradeNode_id_2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

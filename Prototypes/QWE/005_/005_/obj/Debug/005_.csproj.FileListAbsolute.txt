@@ -1,0 +1,16 @@
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\005_.exe.config
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\005_.exe
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\005_.pdb
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\004_001_BaseComponent.exe
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\004_002_LLSData.exe
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\EntityFramework.dll
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\004_001_BaseComponent.pdb
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\004_002_LLSData.pdb
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\EntityFramework.xml
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\bin\Debug\ru\EntityFramework.resources.dll
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\obj\Debug\005_.csprojResolveAssemblyReference.cache
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\obj\Debug\Component.Form2.resources
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\obj\Debug\_005_.Properties.Resources.resources
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\obj\Debug\005_.csproj.GenerateResource.Cache
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\obj\Debug\005_.exe
+D:\Git\000_Delphi_0_Git0\QWE\005_\005_\obj\Debug\005_.pdb

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QWEModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QWEEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="CarLists" EntityType="QWEModel.CarList" />
+    <EntitySet Name="EdgeOfGraphs" EntityType="QWEModel.EdgeOfGraph" />
+    <EntitySet Name="RouteLists" EntityType="QWEModel.RouteList" />
+    <EntitySet Name="TradeNodes" EntityType="QWEModel.TradeNode" />
+    <AssociationSet Name="FK_RouteList_CarList_id__CarList_id" Association="QWEModel.FK_RouteList_CarList_id__CarList_id">
+      <End Role="CarList" EntitySet="CarLists" />
+      <End Role="RouteList" EntitySet="RouteLists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id" Association="QWEModel.FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNodes" />
+      <End Role="EdgeOfGraph" EntitySet="EdgeOfGraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id" Association="QWEModel.FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNodes" />
+      <End Role="EdgeOfGraph" EntitySet="EdgeOfGraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RouteList_TradeNode_id_1__TradeNode_id" Association="QWEModel.FK_RouteList_TradeNode_id_1__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNodes" />
+      <End Role="RouteList" EntitySet="RouteLists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RouteList_TradeNode_id_2__TradeNode_id" Association="QWEModel.FK_RouteList_TradeNode_id_2__TradeNode_id">
+      <End Role="TradeNode" EntitySet="TradeNodes" />
+      <End Role="RouteList" EntitySet="RouteLists" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CarList">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="maxLoadCapacity" Type="Int32" />
+    <NavigationProperty Name="RouteLists" Relationship="QWEModel.FK_RouteList_CarList_id__CarList_id" FromRole="CarList" ToRole="RouteList" />
+  </EntityType>
+  <EntityType Name="EdgeOfGraph">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="TradeNode_id_1" Type="Int32" />
+    <Property Name="TradeNode_id_2" Type="Int32" />
+    <Property Name="cost" Type="Int32" />
+    <NavigationProperty Name="TradeNode" Relationship="QWEModel.FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id" FromRole="EdgeOfGraph" ToRole="TradeNode" />
+    <NavigationProperty Name="TradeNode1" Relationship="QWEModel.FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id" FromRole="EdgeOfGraph" ToRole="TradeNode" />
+  </EntityType>
+  <EntityType Name="RouteList">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="TradeNode_id_1" Type="Int32" />
+    <Property Name="TradeNode_id_2" Type="Int32" />
+    <Property Name="CarList_id" Type="Int32" />
+    <Property Name="reset" Type="Int32" />
+    <NavigationProperty Name="CarList" Relationship="QWEModel.FK_RouteList_CarList_id__CarList_id" FromRole="RouteList" ToRole="CarList" />
+    <NavigationProperty Name="TradeNode" Relationship="QWEModel.FK_RouteList_TradeNode_id_1__TradeNode_id" FromRole="RouteList" ToRole="TradeNode" />
+    <NavigationProperty Name="TradeNode1" Relationship="QWEModel.FK_RouteList_TradeNode_id_2__TradeNode_id" FromRole="RouteList" ToRole="TradeNode" />
+  </EntityType>
+  <EntityType Name="TradeNode">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="EdgeOfGraphs" Relationship="QWEModel.FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id" FromRole="TradeNode" ToRole="EdgeOfGraph" />
+    <NavigationProperty Name="EdgeOfGraphs1" Relationship="QWEModel.FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id" FromRole="TradeNode" ToRole="EdgeOfGraph" />
+    <NavigationProperty Name="RouteLists" Relationship="QWEModel.FK_RouteList_TradeNode_id_1__TradeNode_id" FromRole="TradeNode" ToRole="RouteList" />
+    <NavigationProperty Name="RouteLists1" Relationship="QWEModel.FK_RouteList_TradeNode_id_2__TradeNode_id" FromRole="TradeNode" ToRole="RouteList" />
+  </EntityType>
+  <Association Name="FK_RouteList_CarList_id__CarList_id">
+    <End Role="CarList" Type="QWEModel.CarList" Multiplicity="0..1" />
+    <End Role="RouteList" Type="QWEModel.RouteList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarList">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RouteList">
+        <PropertyRef Name="CarList_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EdgeOfGraph_TradeNode_id_1__TradeNode_id">
+    <End Role="TradeNode" Type="QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="EdgeOfGraph" Type="QWEModel.EdgeOfGraph" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="EdgeOfGraph">
+        <PropertyRef Name="TradeNode_id_1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EdgeOfGraph_TradeNode_id_2__TradeNode_id">
+    <End Role="TradeNode" Type="QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="EdgeOfGraph" Type="QWEModel.EdgeOfGraph" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="EdgeOfGraph">
+        <PropertyRef Name="TradeNode_id_2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RouteList_TradeNode_id_1__TradeNode_id">
+    <End Role="TradeNode" Type="QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="RouteList" Type="QWEModel.RouteList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RouteList">
+        <PropertyRef Name="TradeNode_id_1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RouteList_TradeNode_id_2__TradeNode_id">
+    <End Role="TradeNode" Type="QWEModel.TradeNode" Multiplicity="0..1" />
+    <End Role="RouteList" Type="QWEModel.RouteList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TradeNode">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="RouteList">
+        <PropertyRef Name="TradeNode_id_2" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

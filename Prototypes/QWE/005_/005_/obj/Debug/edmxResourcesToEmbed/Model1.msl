@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище QWEModelContainer" CdmEntityContainer="QWEEntities">
+    <EntitySetMapping Name="CarLists">
+      <EntityTypeMapping TypeName="QWEModel.CarList">
+        <MappingFragment StoreEntitySet="CarList">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="maxLoadCapacity" ColumnName="maxLoadCapacity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EdgeOfGraphs">
+      <EntityTypeMapping TypeName="QWEModel.EdgeOfGraph">
+        <MappingFragment StoreEntitySet="EdgeOfGraph">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TradeNode_id_1" ColumnName="TradeNode_id_1" />
+          <ScalarProperty Name="TradeNode_id_2" ColumnName="TradeNode_id_2" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RouteLists">
+      <EntityTypeMapping TypeName="QWEModel.RouteList">
+        <MappingFragment StoreEntitySet="RouteList">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TradeNode_id_1" ColumnName="TradeNode_id_1" />
+          <ScalarProperty Name="TradeNode_id_2" ColumnName="TradeNode_id_2" />
+          <ScalarProperty Name="CarList_id" ColumnName="CarList_id" />
+          <ScalarProperty Name="reset" ColumnName="reset" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TradeNodes">
+      <EntityTypeMapping TypeName="QWEModel.TradeNode">
+        <MappingFragment StoreEntitySet="TradeNode">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

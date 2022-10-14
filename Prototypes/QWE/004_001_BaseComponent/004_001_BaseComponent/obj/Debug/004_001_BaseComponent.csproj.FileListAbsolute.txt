@@ -1,0 +1,46 @@
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe.config
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.Choice_WinForm.resources
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.ObjectReader_WinForm.resources
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csproj.GenerateResource.cache
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git0\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csprojResolveAssemblyReference.cache
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe.config
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.Choice_WinForm.resources
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.ObjectReader_WinForm.resources
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csproj.GenerateResource.Cache
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csprojResolveAssemblyReference.cache
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.Choice_WinForm.resources
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.ObjectReader_WinForm.resources
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csproj.GenerateResource.Cache
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe.config
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git1 - копия\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csproj.CoreCompileInputs.cache
+D:\Git\004_ArCode_2_Git1\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csprojAssemblyReference.cache
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe.config
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.Choice_WinForm.resources
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.ObjectReader_WinForm.resources
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csproj.GenerateResource.cache
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.exe
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.pdb
+D:\Git\004_ArCode_2_Git2\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csprojResolveAssemblyReference.cache
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe.config
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.exe
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\bin\Debug\004_001_BaseComponent.pdb
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csprojResolveAssemblyReference.cache
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.Choice_WinForm.resources
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\Component.UltimateChoicer.ObjectReader_WinForm.resources
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.csproj.GenerateResource.Cache
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.exe
+D:\Git\000_Delphi_0_Git0\QWE\004_001_BaseComponent\004_001_BaseComponent\obj\Debug\004_001_BaseComponent.pdb

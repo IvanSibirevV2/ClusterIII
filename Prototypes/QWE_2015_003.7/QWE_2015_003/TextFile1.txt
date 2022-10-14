@@ -1,0 +1,29 @@
+﻿                    {/*пересчёт U*/
+                        for (int I = 1; I < L_U.Count(); I++){
+                            Boolean Bigflag = false; int stopset = 0;
+                            for (int j = 1; j < L_U[I].Count(); j++) 
+
+                                if (DistanceCentClusterLS(L_X[I],L_C[j])==0){Bigflag = true;stopset = j;}
+                            if (Bigflag){
+                                for (int j = 1; j < L_U[I].Count(); j++){
+                                    if (j == stopset)L_U[I][j] = Convert.ToString((int) 1);
+                                    if (j != stopset)L_U[I][j] = Convert.ToString((int)0);
+                                }
+                            }else
+                            for (int j = 1; j < L_U[I].Count(); j++){
+                                Double zn = 0;
+                                for (int L = 1; L < L_C.Count(); L++)
+zn = zn + 1 / System.Math.Pow(
+    DistanceCentClusterLS(L_X[I], L_C[j]) / 
+    DistanceCentClusterLS(L_X[I], L_C[L]), 2 / (m - 1)
+    );
+
+                                //zn=zn+System.Math.Pow(DistanceCentClusterLS(L_X[I],L_C[j])/DistanceCentClusterLS(L_X[I],L_C[L]),2/(m-1));
+//zn=zn+1/System.Math.Pow(DistanceCentClusterLS(L_X[I],L_C[L]),1/(m-1));
+//L_U[I][j] = Convert.ToString((Double)1/ zn);
+//L_U[I][j]=Convert.ToString((Double)(1/System.Math.Pow(DistanceCentClusterLS(L_X[I],L_C[j]),1/(m-1)))/zn);
+
+L_U[I][j]=Convert.ToString((Double)(1/zn));
+                            }
+                        }
+                    }

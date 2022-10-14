@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CC0E425A-1661-4110-81AC-5D3267BAC505}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Component</RootNamespace>
+    <AssemblyName>004_002_LLSData</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataMath_LLS\IBarycenter_ILLS.cs" />
+    <Compile Include="DataMath_LLS\LLSEx_Get_ClusterProperties.cs" />
+    <Compile Include="DataMath_LLS\IDistance_ILS.cs" />
+    <Compile Include="DataMath_LLS\Matrix\Determinant\DeterminantV0_ILLS.cs" />
+    <Compile Include="DataMath_LLS\Matrix\IMinor_ILLS.cs" />
+    <Compile Include="DataMath_LLS\Matrix\IMultiplication_ILLS.cs" />
+    <Compile Include="DataMath_LLS\Matrix\ISum_ILLS.cs" />
+    <Compile Include="DataMath_LLS\Matrix\ITransp_ILLS.cs" />
+    <Compile Include="DataSource_LLS\ErorBlock\LLSDataSource_ConsoleVersion.cs" />
+    <Compile Include="DataSource_LLS\ErorBlock\LLSDataSource_SWFClipboardV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSource_LLS\ErorBlock\LLSDataSource_SWFClipboardV.Designer.cs">
+      <DependentUpon>LLSDataSource_SWFClipboardV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSource_LLS\Experimental_001.cs" />
+    <Compile Include="DataSource_LLS\Ext_InputData_SV_ListListString.cs" />
+    <Compile Include="DataSource_LLS\GeneraterRandomClusterInputData\GenCluInpData_Rand.cs" />
+    <Compile Include="DataSource_LLS\GeneraterRandomClusterInputData\GenClusInpData_ForRandClu.cs" />
+    <Compile Include="DataSource_LLS\GeneraterRandomValue\IGeneraterRandomValue.cs" />
+    <Compile Include="DataSource_LLS\LLS_TxT_SaveLoadEr.cs" />
+    <Compile Include="DataSource_LLS\Script\Get_FromOllSourseByChoicer_LLS.cs" />
+    <Compile Include="DataSource_LLS\Script\Clipboard.cs" />
+    <Compile Include="DataSource_LLS\Script\GenRandCluDataScript.cs" />
+    <Compile Include="DataSource_LLS\Script\LoaderLLS_From_TxT.cs" />
+    <Compile Include="DataSource_LLS\Script\SaverEXCEL_LLS.cs" />
+    <Compile Include="DataSource_LLS\Script\LoaderLLS_From_Json.cs" />
+    <Compile Include="DataSource_LLS\Standart.cs" />
+    <Compile Include="DataSource_LLS\LLS_Json_SaveLoadEr.cs" />
+    <Compile Include="Ext_ILS.cs" />
+    <Compile Include="Ext_LS.cs" />
+    <Compile Include="Ext_String_SLimiter.cs" />
+    <Compile Include="DataTest_LLS\Ext_DataTest_LLS.cs" />
+    <Compile Include="DataTest_LLS\DataTest_LLS.cs" />
+    <Compile Include="DataTest_LLS\DataTest_LLS_ColumnsNames.cs" />
+    <Compile Include="DataTest_LLS\DataTest_LLS_Count.cs" />
+    <Compile Include="DataTest_LLS\DataTest_LLS_Double.cs" />
+    <Compile Include="DataTest_LLS\DataTest_LLS_RowNames.cs" />
+    <Compile Include="DataTest_LLS\Ext_DataTest_LS.cs" />
+    <Compile Include="MyMicroEXCEL.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Standart_Small.cs" />
+    <Compile Include="DataMath_LLS\Matrix\Determinant\DeterminantV1_ILLS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\004_001_BaseComponent\004_001_BaseComponent\004_001_BaseComponent.csproj">
+      <Project>{f6c14fb6-3591-43b6-bfd2-4879a068f5c1}</Project>
+      <Name>004_001_BaseComponent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataSource_LLS\ErorBlock\LLSDataSource_SWFClipboardV.resx">
+      <DependentUpon>LLSDataSource_SWFClipboardV.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

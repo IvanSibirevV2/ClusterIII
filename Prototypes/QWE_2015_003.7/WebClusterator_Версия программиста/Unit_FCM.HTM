@@ -1,0 +1,52 @@
+<script>
+/*FCM*/
+function DistanceFCM(input1,input2){rez=0;if(input1.Count()==input2.Count()){for(i2=1;i2<input1.Count();i2++){qwe=input1.at(i2)-input2.at(i2);rez=rez+qwe*qwe;}rez=Math.sqrt(rez);}return rez;}
+function FCMClustering(TM,TC,X,E){
+	/*<Шаг 1>*/
+	Q=1.5;
+	N=TC.Count()-1;
+	/*<Шаг 2>*/
+	for(fdw=1;fdw<E;fdw++){
+//////////////////////////////////////////////////////////
+	/*TC*/
+		for(K=1;K<TC.Count();K++){
+			for(P=1;P<TC.a[K].Count();P++){
+				ch=0;zn=0;
+				for(I=1;I<TM.Count();I++){
+					ch=ch+Math.pow(TM.a[I].a[K],Q)*X.a[I].a[P];
+					zn=zn+ Math.pow(TM.a[I].a[K],Q);
+				}
+				TC.a[K].a[P]=ch/zn;
+			}
+		}
+	/*TM*/
+		for(I=1;I<TM.Count();I++){
+			flag=false;stopset=0;
+			for(j=1;j<TM.at(I).Count();j++){
+				if(DistanceFCM(X.a[I],TC.a[j])==0){flag=true;stopset=j;}
+			}
+			if(flag){
+				for(j=1;j<TM.at(I).Count();j++){
+					if(j==stopset){TM.a[I].a[j]=1;}
+					if(j!=stopset){TM.a[I].a[j]=0;}
+				}
+			}else{
+				for(j=1;j<TM.at(I).Count();j++){
+					zn=0;
+					for(L=1;L<TM.at(I).Count();L++){
+						zn=zn+1/Math.pow(DistanceFCM(X.a[I],TC.a[L]),1/(Q-1));
+					}
+					TM.a[I].a[j]=(1/Math.pow(DistanceFCM(X.a[I],TC.a[j]),1/(Q-1)))/zn;
+				}
+			}
+		}
+		if(true){
+			AlterAlert("FCMClustering Log "+String(fdw));
+			if(true){AlterAlert("TC");for(i=0;i<TC.Count();i++){str="";for(j=0;j<TC.a[i].Count();j++)str=str+String(TC.a[i].a[j])+"  ";AlterAlert(str);}}
+			if(true){AlterAlert("TM");for(i=0;i<TM.Count();i++){str="";for(j=0;j<TM.a[i].Count();j++)str=str+String(TM.a[i].a[j])+"__";AlterAlert(str);}}
+		}
+///////////////////////////////////////////////////////////////////////////
+	}
+	return TM;
+}
+</script>
