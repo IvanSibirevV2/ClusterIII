@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\LLSData.cs" />
+    <Compile Include="Data\Standart\Big.cs" />
     <Compile Include="Data\Standart\Normal.cs" />
     <Compile Include="Data\Standart\Super_Small_NaN.cs" />
     <Compile Include="Data\Standart\Super_Small.cs" />
