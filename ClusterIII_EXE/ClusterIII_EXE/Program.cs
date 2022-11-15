@@ -10,6 +10,9 @@ namespace ClusterIII_EXE
     {
         static void Main(string[] args)
         {
+            ClusterIII.Data.Standart.Super_Small.Test();
+            
+            "".ReadLine();
         }
     }
 }

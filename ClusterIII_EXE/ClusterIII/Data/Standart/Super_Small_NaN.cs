@@ -8,7 +8,7 @@ namespace ClusterIII.Data.Standart
 {
     public class Super_Small_NaN : LLSData
     {
-        public Super_Small_NaN()=>this.p_LLS.Set_Clear()
+        public Super_Small_NaN()=>this.p_LLS.Set(a => a.Clear())
             .Set_Add(new List<string>() { "А00",  "П1",   "П2",   "П3",   "П4",   "П5"})
             .Set_Add(new List<string>() { "А01",  "1",    "1",    "1",    "1",    "1" })
             .Set_Add(new List<string>() { "А02",  "1",    "1",    "0",    "0",    "1" })
