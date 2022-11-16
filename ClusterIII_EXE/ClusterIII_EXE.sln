@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterIII_EXE", "ClusterII
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterIII", "ClusterIII\ClusterIII.csproj", "{97BFDBA8-9D2E-410A-9106-BEA143B0827F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_ClusterIII", "TP_ClusterIII\TP_ClusterIII.csproj", "{2237A680-C929-495E-B2EE-3E36115B934D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{97BFDBA8-9D2E-410A-9106-BEA143B0827F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97BFDBA8-9D2E-410A-9106-BEA143B0827F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97BFDBA8-9D2E-410A-9106-BEA143B0827F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2237A680-C929-495E-B2EE-3E36115B934D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2237A680-C929-495E-B2EE-3E36115B934D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2237A680-C929-495E-B2EE-3E36115B934D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2237A680-C929-495E-B2EE-3E36115B934D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

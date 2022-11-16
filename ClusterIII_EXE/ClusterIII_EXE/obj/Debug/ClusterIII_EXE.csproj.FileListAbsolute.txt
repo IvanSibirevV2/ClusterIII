@@ -10,3 +10,15 @@ C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII_EXE\obj\Debu
 C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.CopyComplete
 C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.exe
 C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.pdb
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII_EXE.exe.config
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII_EXE.exe
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII_EXE.pdb
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ArgeCode.dll
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII.dll
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII.pdb
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ArgeCode.pdb
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.AssemblyReference.cache
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.CoreCompileInputs.cache
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.CopyComplete
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.exe
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.pdb

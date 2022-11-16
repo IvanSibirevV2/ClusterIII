@@ -14,3 +14,11 @@ C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII\bin\Debug\Ar
 C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.csproj.CoreCompileInputs.cache
 C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.dll
 C:\Users\206911\Downloads\ClusterIII-main\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.pdb
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\bin\Debug\ClusterIII.dll
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\bin\Debug\ClusterIII.pdb
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\bin\Debug\ArgeCode.dll
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\bin\Debug\ArgeCode.pdb
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.csproj.AssemblyReference.cache
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.csproj.CoreCompileInputs.cache
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.dll
+C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.pdb
