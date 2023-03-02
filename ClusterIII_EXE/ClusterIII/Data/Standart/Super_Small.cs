@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClusterIII.Data.Standart
 {
+
     public class Super_Small: LLSData
     {
+        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 2, _day: 3, _hour: 13, _minute: 07, _second: 10, _millisecond: 0, _StrComment: "Тест ClusterIII.Data.Standart.Super_Small.Test()")]
+        public static System.Boolean Test() => new Super_Small().WriteThis(4).DataTest_All();
         public Super_Small()=>this.p_LLS.Set(a => a.Clear())
 
             .Set_Add(new List<string>() { "А00",    "П1",   "П2",   "П3",   "П4",   "П5"})
@@ -22,7 +25,5 @@ namespace ClusterIII.Data.Standart
             .Set_Add(new List<string>() { "А09",    "1",    "1",    "1",    "1",    "1" })
             .Set_Add(new List<string>() { "А10",    "1",    "0",    "0",    "1",    "1" })
         ;
-        /// <summary>ClusterIII.Data.Standart.Super_Small.Test() </summary>
-        public static System.Boolean Test() => true;
     }
 }

@@ -8,6 +8,8 @@ namespace ClusterIII.Data.Standart
 {
     public class Super_Big : LLSData
     {
+        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 2, _day: 3, _hour: 13, _minute: 07, _second: 20, _millisecond: 0, _StrComment: "Тест ClusterIII.Data.Standart.Super_Big.Test()")]
+        public static System.Boolean Test() => new Super_Big().WriteThis(4).DataTest_All();
         public Super_Big() => this.p_LLS.Set(a => a.Clear())
 
             .Set_Add(new List<string>() { "A000",   "П1",   "П2",   "П3",   "П4",   "П5",   "П6",   "П7",   "П8",   "П9",   "П10",  "П11",  "П12",  "П13",  "П14",  "П15",  "П16",  "П17",  "П18",  "П19",  "П20",  "П21",  "П22",  "П23",  "П24",  "П25",  "П26",  "П27",  "П28",  "П29",  "П30",  "П31",  "П32",  "П33",  "П34",  "П35",  "П36",  "П37",  "П38",  "П39",  "П40",  "П41",  "П42",  "П43",  "П44",  "П45",  "П46",  "П47",  "П48",  "П49",  "П50",  "П51",  "П52",  "П53",  "П54",  "П55",  "П56",  "П57",  "П58",  "П59",  "П60",  "П61",  "П62",  "П63" })

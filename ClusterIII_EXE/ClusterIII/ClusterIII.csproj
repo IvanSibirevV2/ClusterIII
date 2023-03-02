@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ClusterIII</RootNamespace>
     <AssemblyName>ClusterIII</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ArgeCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ArgeCode.0.0.2\lib\net471\ArgeCode.dll</HintPath>
+      <HintPath>..\packages\ArgeCode.0.0.8\lib\Net48\ArgeCode.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,12 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CogOn.cs" />
     <Compile Include="Data\LLSData.cs" />
     <Compile Include="Data\Standart\Super_Big.cs" />
     <Compile Include="Data\Standart\Big.cs" />
     <Compile Include="Data\Standart\Normal.cs" />
     <Compile Include="Data\Standart\Super_Small_NaN.cs" />
     <Compile Include="Data\Standart\Super_Small.cs" />
+    <Compile Include="Ext_String.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
