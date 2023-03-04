@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClusterIII.Data
 {
+    
     /// <summary>
     /// Класс шаблон для хранения данных в p_LLS и сопутствующих данных
     /// </summary>

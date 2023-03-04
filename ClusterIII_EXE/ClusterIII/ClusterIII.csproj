@@ -46,6 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CogOn.cs" />
+    <Compile Include="Data\DataPreProcessor.cs" />
+    <Compile Include="Data\Ext_LLDData.cs" />
+    <Compile Include="Data\Ext_LLSData.cs" />
+    <Compile Include="Data\LLDData.cs" />
     <Compile Include="Data\LLSData.cs" />
     <Compile Include="Data\Standart\Super_Big.cs" />
     <Compile Include="Data\Standart\Big.cs" />
