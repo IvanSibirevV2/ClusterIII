@@ -8,7 +8,7 @@ namespace ClusterIII.Data
 {
     public static class Ext_LLS_Data_SuperSmall
     {
-        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 3, _day: 6, _hour: 9, _minute: 52, _second: 0, _millisecond: 0, _StrComment: "Тест ClusterIII.Data.Standart.Super_Small_NaN.Test()")]
+        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 3, _day: 6, _hour: 9, _minute: 52, _second: 0, _millisecond: 0, _StrComment: "Тест ClusterIII.Data.Ext_LLS_Data_SuperSmall.Test();")]
         public static System.Boolean Test() => new List<List<System.String>>().Set__Data_SuperSmall().WriteThis(4).DataTest_All();
         public static List<List<System.String>> Set__Data_SuperSmall(this List<List<System.String>> _this) =>
             _this.Set_Clear()

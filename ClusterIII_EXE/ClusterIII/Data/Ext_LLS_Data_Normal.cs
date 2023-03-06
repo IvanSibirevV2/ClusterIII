@@ -8,7 +8,7 @@ namespace ClusterIII.Data
 {
     public static class Ext_LLS_Data_Normal
     {
-        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 3, _day: 6, _hour: 10, _minute: 14, _second: 0, _millisecond: 0, _StrComment: "Тест ClusterIII.Data.Standart.Super_Small_NaN.Test()")]
+        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 3, _day: 6, _hour: 10, _minute: 14, _second: 0, _millisecond: 0, _StrComment: "Тест ClusterIII.Data.Ext_LLS_Data_Normal.Test();")]
         public static System.Boolean Test() => new List<List<System.String>>().Set__Data_Normal().WriteThis(4).DataTest_All();
         public static List<List<System.String>> Set__Data_Normal(this List<List<System.String>> _this) =>
             _this.Set_Clear()
