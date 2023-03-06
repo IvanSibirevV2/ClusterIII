@@ -11,7 +11,7 @@ namespace ClusterIII_EXE
         static void Main(string[] args)
         {
             ClusterIII.CogOn.Ok();
-            System.Diagnostics.TestLast.Do_IfBoolean_Oll();
+            System.Diagnostics.TestLast.Do_IfBoolean();
             "".ReadLine();
         }
     }
