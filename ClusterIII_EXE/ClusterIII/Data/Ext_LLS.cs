@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ namespace ClusterIII.Data
 {
     public static class Ext_LLS
     {
+        /// <summary>Вывод в консоль в текстовой форме</summary>
         public static List<List<string>> WriteThis(this List<List<String>> _this,uint i = 4)
         {
             _this
@@ -18,8 +20,11 @@ namespace ClusterIII.Data
             return _this; 
         }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// <summary> Глубокое родное нативное копирование</summary>
         public static List<System.String> Get_Copy(this List<System.String> _this) => _this.Select(a => a).ToList();
+        /// <summary> Глубокое родное нативное копирование</summary>м
         public static List<List<System.String>> Get_Copy(this List<List<System.String>> _this) => _this.Select(a => a.Get_Copy()).ToList();
+        /// <summary> Глубокое родное нативное копирование</summary>
         public static List<List<List<System.String>>> Get_Copy(this List<List<List<System.String>>> _this) => _this.Select(a => a.Get_Copy()).ToList();
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /// <summary> Проверяем одинаковое ли кол-во элементов в строке</summary><returns></returns>
@@ -64,6 +69,7 @@ namespace ClusterIII.Data
             new List<List<System.String>>().Set__Data_SuperSmall().WriteThis().DataTest_3(_IsConsole: true);
             return true;
         }
+        /// <summary> Запук всех тестов, челых трех </summary>
         public static System.Boolean DataTest_All(this List<List<System.String>> _this, System.Boolean _IsConsole = false) => 
             _this.DataTest_1(_IsConsole: _IsConsole) && _this.DataTest_2(_IsConsole: _IsConsole) && _this.DataTest_3(_IsConsole: _IsConsole);
         [System.Diagnostics.TestLastMethod(_year: 2023, _month: 3, _day: 6, _hour: 10, _minute: 59, _second:56, _millisecond: 0, _StrComment: "Тест;")]
@@ -73,29 +79,30 @@ namespace ClusterIII.Data
             return true;
         }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        public class PointXY
+        public class ListPoint : List<List<double>>
         {
-            public int I=0;
-            public int J=0;
-            public PointXY() { }
-            public PointXY(int i, int j) {  this.I = i; this.J = j; }
-            public System.Object ToAnonimys() { return new { I = this.I, J = this.J }; }
+            public ListPoint() { }
+            public ListPoint Set_Add(List<double> _LD){ this.Add(_LD); return this;}
+            public ListPoint AddPoint(int i,int j) { return this.Set_Add(new List<double>().Set_Add(i).Set_Add(j));}
+            public ListPoint WriteThis() { this.Select(a => System.String.Join("|", a)).ToList().ForEach(a => a.WriteLine()); return this;}
         }
-        public static List<PointXY> GetNaNList(this List<List<System.String>> _this) 
+        /// <summary>Получение списка пропусков</summary>
+        public static ListPoint GetNaNList(this List<List<System.String>> _this) 
         {
-            
-            List<PointXY> _LPointXY = new List<PointXY>();
+
+            ListPoint _LPointXY = new ListPoint();
             for (int i = 1; i < _this.Count; i++)
                 for (int j = 1; j < _this[0].Count; j++)
-                    if (_this[i][j] == "NaN") _LPointXY.Add(new PointXY(i, j));
+                    if (_this[i][j] == "NaN") _LPointXY.AddPoint(i, j);
             return _LPointXY;
         }
         [System.Diagnostics.TestLastMethod(_year: 2023, _month: 3, _day: 6, _hour: 11, _minute: 34, _second: 0, _millisecond: 0, _StrComment: "Тест;")]
         public static System.Boolean Test_1() 
         {
-            new List<List<System.String>>().Set__Data_SuperSmallNaN().WriteThis().GetNaNList().ForEach(a=>a.ToAnonimys().ToString().WriteLine());
+            new List<List<System.String>>().Set__Data_SuperSmallNaN().WriteThis().GetNaNList().WriteThis();
             return true;
         }
+        /// <summary>Замена всех пропусков нулями</summary>
         public static List<List<System.String>> Get_LLS_NanToZero(this List<List<System.String>> _this) 
         {
             for (int i = 0; i < _this.Count; i++)
@@ -109,7 +116,7 @@ namespace ClusterIII.Data
             new List<List<System.String>>().Set__Data_SuperSmallNaN().WriteThis().Get_LLS_NanToZero().WriteThis();
             return true;
         }
-        //Сделать генирацию неповторяющегося id
+        /// <summary>Получение в виде списка списка чисел</summary>
         public static List<List<double>> Get_As_LLD(this List<List<System.String>> _this) 
         {
             if (!_this.DataTest_All()) throw new System.Exception("Eror: 2023:03:06::12:41 LLS DATA Eror");
@@ -118,10 +125,49 @@ namespace ClusterIII.Data
             {
                 List<System.Double> _LD = new List<double>().Set_Add(i);
                 for (int j = 1; j < _this[0].Count; j++)
-                    _LD.Add(System.Double.Parse(_this[i][j]));
-                _LLD.Add(_LD);
+                {
+                    System.Double q = 0;
+                    System.Double.TryParse(_this[i][j], out q);
+                    _LD.Add(q);
+                }
+               _LLD.Add(_LD);
             }
+            //Переписать алгоритм
+            //Шаг первый Создать LLD нужной размерности, где все не число
+            //Заполнить первый столбец порядковым номером
+            //Заполнить по столбцу всеми числовыми элементами попутно считая среднее арифметическое
+            //Заполнить по столбцу все пропуски средним арифметическим
+            //Пройти 2 теста
+
+            //Таким образом получим что
+            //Дергаем LLD и уже можем считать со среднеми арифметическими дырками
+            //Получим Дефолтный уровень предобработки
+
+            // В будующем отрефакторить все пееудоляв
+            // Останется приватная функция с нанами и флаг на востанк
             return _LLD;
+        }
+        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 03, _day: 11, _hour: 23, _minute: 48, _second: 0)]
+        public static System.Boolean Test_Get_As_LLD()
+        {
+            new List<List<System.String>>()
+                .Set__Data_SuperSmall()
+                .WriteThis()
+                .Get_As_LLD()
+                .WriteThis();
+            ;
+            return true;
+        }
+        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 03, _day: 11, _hour: 23, _minute: 49, _second: 0)]
+        public static System.Boolean Test_Get_As_LLD_1()
+        {
+            new List<List<System.String>>()
+                .Set__Data_SuperSmallNaN()
+                .WriteThis()
+                .Get_As_LLD()
+                .WriteThis();
+            ;
+            return true;
         }
     }
 }

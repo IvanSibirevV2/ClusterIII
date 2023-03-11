@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ArgeCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ArgeCode.0.0.8\lib\Net48\ArgeCode.dll</HintPath>
+      <HintPath>..\packages\ArgeCode.0.0.9\lib\Net48\ArgeCode.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,13 +46,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CogOn.cs" />
+    <Compile Include="Data\Ext_LLD.cs" />
     <Compile Include="Data\Ext_LLS_Data_Normal.cs" />
     <Compile Include="Data\Ext_LLS_Data_.cs" />
     <Compile Include="Data\Ext_LLS_Data_Super_Big.cs" />
     <Compile Include="Data\Ext_LLS_Data_SuperSmall.cs" />
     <Compile Include="Data\Ext_LLS_Data_SuperSmallNaN.cs" />
     <Compile Include="Data\Ext_LLS.cs" />
-    <Compile Include="Data\Ext_String.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
