@@ -8,6 +8,59 @@ using System.Threading.Tasks;
 
 namespace ClusterIII.Data
 {
+    public static class Ext_LLS_GetLLD
+    {
+        [System.Diagnostics.TestLastMethod(_year: 2023, _month: 03, _day: 17, _hour: 16, _minute: 51, _second: 0)]
+        public static System.Boolean Test_Get_As_LLD()
+        {
+            "Привет мир".WriteLine();
+            List<List<System.String>> _LLStr=new List<List<System.String>>().Set__Data_SuperSmallNaN()
+                .WriteThis()
+            ;
+            List<List<System.Double>> _LLD = new List<List<double>>();
+            {//Создание таблицы LLD с нулями
+                for (int i = 1; i < _LLStr.Count; i++)
+                {
+                    List<System.Double> _LD = new List<double>();
+                    _LD.Add((System.Double)i);
+                    for (int j = 1; j < _LLStr[i].Count; j++)
+                    {
+                        _LD.Add(0);
+                    }
+                    _LLD.Add(_LD);
+                }
+            }
+            {//Наполнение таблицы числами если удастся c пост заполнением средними арифметическими пропусков.
+                for (int j = 1; j < _LLStr[0].Count; j++)
+                {
+                    System.Int32 Counter_not_Nan = 0;
+                    System.Double SummJParap = 0;
+                    List<System.Action> ListPostAct = new List<Action>(); ;
+                    for (int i = 1; i < _LLStr.Count; i++)
+                    {
+                        System.Double _D = 0;
+                        if (System.Double.TryParse(_LLStr[i][j], out _D))
+                        {
+                            if (_D != System.Double.NaN)
+                            {
+                                _LLD[i - 1][j] = _D;Counter_not_Nan++;SummJParap += _D;}
+                        }
+                        else 
+                        {
+                            int i_local = i-1;
+                            int j_local = j;
+                            ListPostAct.Add(() =>_LLD[i_local][j_local] = SummJParap);
+                        }
+                    }
+                    SummJParap = SummJParap /Counter_not_Nan;
+                    ListPostAct.ForEach(a => a());
+                }
+            }
+            _LLD.WriteThis();
+            return true;
+        }
+
+    }
     public static class Ext_LLS
     {
         /// <summary>Вывод в консоль в текстовой форме</summary>
