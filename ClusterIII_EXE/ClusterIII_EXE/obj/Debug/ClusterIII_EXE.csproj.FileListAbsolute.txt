@@ -35,3 +35,16 @@ C:\D\Git_Hub\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.c
 C:\D\Git_Hub\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.CopyComplete
 C:\D\Git_Hub\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.exe
 C:\D\Git_Hub\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.pdb
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII_EXE.exe.config
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII_EXE.exe
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII_EXE.pdb
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ArgeCode.dll
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII.dll
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ClusterIII.pdb
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\bin\Debug\ArgeCode.pdb
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.AssemblyReference.cache
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.SuggestedBindingRedirects.cache
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.csproj.CopyComplete
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.exe
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII_EXE\obj\Debug\ClusterIII_EXE.pdb

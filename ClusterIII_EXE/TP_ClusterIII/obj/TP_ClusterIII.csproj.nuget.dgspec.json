@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj": {}
+    "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj": {}
   },
   "projects": {
-    "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj": {
+    "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj",
+        "projectUniqueName": "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj",
         "projectName": "ClusterIII",
-        "projectPath": "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj",
+        "projectPath": "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net48": {}
       }
     },
-    "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj": {
+    "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj",
+        "projectUniqueName": "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj",
         "projectName": "TP_ClusterIII",
-        "projectPath": "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj",
+        "projectPath": "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj",
         "packagesPath": "C:\\Users\\SibNout2020\\.nuget\\packages\\",
-        "outputPath": "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\obj\\",
+        "outputPath": "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SibNout2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,8 +43,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj": {
-                "projectPath": "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj"
+              "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj": {
+                "projectPath": "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\ClusterIII\\ClusterIII.csproj"
               }
             }
           }

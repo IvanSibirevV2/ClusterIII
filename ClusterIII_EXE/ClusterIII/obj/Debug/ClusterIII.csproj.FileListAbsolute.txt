@@ -22,3 +22,12 @@ C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\Clust
 C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.csproj.CoreCompileInputs.cache
 C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.dll
 C:\Users\206911\Downloads\ClusterIII__\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.pdb
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\bin\Debug\ClusterIII.dll
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\bin\Debug\ClusterIII.pdb
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\bin\Debug\ArgeCode.dll
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\bin\Debug\ArgeCode.pdb
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.csproj.AssemblyReference.cache
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.csproj.CopyComplete
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.dll
+C:\D\Git_Hub_V2\ClusterIII\ClusterIII_EXE\ClusterIII\obj\Debug\ClusterIII.pdb

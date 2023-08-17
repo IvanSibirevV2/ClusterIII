@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PGjT8rw15tuQVuiYh1ud87POUm8hoP7BcYObRqdFQY00AorRTAvmD9Bz5w2cbhqBc0OanSROlS1YD890+MDF/g==",
+  "dgSpecHash": "zk55+tZTWujlq9NzDrKwYMsr1oN+FHTzvNjiJbT6r+sf30gk5yzgKoKpv7S8s5CsQLJqWP4JsgrGNsNFPoVgmQ==",
   "success": true,
-  "projectFilePath": "C:\\D\\Git_Hub\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj",
+  "projectFilePath": "C:\\D\\Git_Hub_V2\\ClusterIII\\ClusterIII_EXE\\TP_ClusterIII\\TP_ClusterIII.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SibNout2020\\.nuget\\packages\\argecode\\0.0.2\\argecode.0.0.2.nupkg.sha512",
     "C:\\Users\\SibNout2020\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
