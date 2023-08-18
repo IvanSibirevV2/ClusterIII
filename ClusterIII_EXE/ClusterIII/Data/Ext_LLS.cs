@@ -5,8 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using ClusterIII.Data;
 
-namespace ClusterIII.Data
+namespace System
 {
     public static class Ext_LLS_GetLLD
     {
