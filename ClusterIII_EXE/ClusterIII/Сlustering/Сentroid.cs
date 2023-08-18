@@ -9,9 +9,16 @@ namespace ClusterIII.Сlustering
 {
     public class Сentroid
     {
-        private List<List<System.Double>> p__LLD = new List<List<double>>();
+        private List<List<System.Double>> p__LLD = null;
+        public List<List<System.Double>> p_LLD { get { return this.p__LLD; } set { this.p__LLD = value; } }
         private int p__N = 2;
         public Сentroid() { }
+        public Сentroid Init() 
+        {
+            this.p__LLD = new List<List<string>>().Set__Data_SuperSmall().Get_As_LLD();
+            this.p__N = 2;
+            return this;
+        }
         public Сentroid Set(
             Сentroid _this=null
             , System.Nullable<int> _N = null
@@ -26,9 +33,6 @@ namespace ClusterIII.Сlustering
         public System.Boolean p__LockEr = false;
         public Сentroid Do() 
         {
-            {
-                
-            }
             this.p__LockEr = true;
             return this;
         }
@@ -42,7 +46,9 @@ namespace ClusterIII.Сlustering
         public static System.Boolean Test() 
         {
             System.Boolean testBooleanResalt = true;
-
+            Сentroid _Centroid = new Сentroid().Init();
+            _Centroid.Do();
+            _Centroid.p__LLD.WriteThis();
             return testBooleanResalt;
         }
     }
