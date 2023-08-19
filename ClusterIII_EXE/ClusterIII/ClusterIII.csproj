@@ -54,7 +54,9 @@
     <Compile Include="Data\Ext_LLS_Data_SuperSmallNaN.cs" />
     <Compile Include="Data\Ext_LLS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Сlustering\DisTable.cs" />
     <Compile Include="Сlustering\Сentroid.cs" />
+    <Compile Include="Сlustering\СlusterS.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

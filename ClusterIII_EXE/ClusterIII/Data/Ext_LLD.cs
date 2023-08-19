@@ -14,6 +14,16 @@ namespace ClusterIII.Data
             _LLD.Select(a=>System.String.Join("|",a.Select(b=>b.ToString().GetStringtAs(i:i)).ToList())).ToList().ForEach(a=>a.WriteLine());
             return _LLD.ToList();
         }
+        public static List<List<List<System.Double>>> WriteThis(this List<List<List<double>>> _LLLD, uint i = 3u)
+        {
+            foreach (var QWE in _LLLD)
+            {
+                "Cluster".WriteLine();
+                QWE.WriteThis(i);
+            }
+            "".WriteLine();
+            return _LLLD;
+        }
         /// <summary>Медленное среднеарифметическое по столбцу LLD за вычетом пропущеных значений</summary>
         public static System.Double Get_Average(this List<List<double>> _LLD,int _j=1, Ext_LLS.ListPoint _IgnorListPoint = null)
         {
@@ -50,5 +60,6 @@ namespace ClusterIII.Data
                 _LLLD_.Add(_LLD_.Get_Copy());
             return _LLLD_;
         }
+        
     }
 }

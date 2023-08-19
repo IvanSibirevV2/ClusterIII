@@ -31,11 +31,26 @@ namespace ClusterIII.Сlustering
             return this;
         }
         public System.Boolean p__LockEr = false;
-        public Сentroid Do() 
+        public Сentroid Do()
         {
+            //this.p__LLLD = this.p__LLD.Get_As_LLLD();
+            ///
+            List<List<double>> DataTable = new List<List<double>>();
+            for (int i = 0; i < this.p__LLLD.Count; i++)
+            {
+                List<double> qwe=new List<double>();
+                for (int j = 0; j < this.p__LLLD[i].Count; j++)
+                {
+                    qwe.Add(0);
+                }
+            }
+            ///
+            //this.p__LLLD.WriteThis();
+            /////////////////////////
             this.p__LockEr = true;
             return this;
         }
+        private List<List<List<System.Double>>> p__LLLD = null;
         public System.Boolean Get_Resalt() 
         {
             if (!this.p__LockEr) this.Do();
@@ -48,7 +63,7 @@ namespace ClusterIII.Сlustering
             System.Boolean testBooleanResalt = true;
             Сentroid _Centroid = new Сentroid().Init();
             _Centroid.Do();
-            _Centroid.p__LLD.WriteThis();
+            //_Centroid.p__LLD.WriteThis();
             return testBooleanResalt;
         }
     }
